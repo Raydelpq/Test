@@ -21,17 +21,25 @@ cd test
 
 Ir al directorio del backend:
 ```bash
+# Ir al directorio del backend
 cd backend
+# Instalar las dependencias de Laravel
 composer install
-cp .env.example .env
+#Configurar la Base de Datos en el .env 
+cp .env.example .env 
+# Generar la clave de la aplicación Laravel
 php artisan key:generate
+# Iniciar el servidor en el puerto 8001
 php artisan serve --port=8001
 ```
 
 ## Instalación del Frontend (Vue.js)
 ```bash
+# Ir al directorio del frontend
 cd frontend
+# Instalar las dependencias
 npm install
+# Iniciar el servidor
 npm run serve
 ```
 
