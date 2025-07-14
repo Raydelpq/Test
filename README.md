@@ -7,7 +7,7 @@ Esta prueba técnica consiste en una aplicación full-stack construida con Larav
 - PHP >= 8.2
 - Composer  
 - MySQL
-- Node.js >= 122 
+- Node.js >= 22 
 - NPM o Yarn  
 - Vue CLI (para desarrollo del frontend)
 
