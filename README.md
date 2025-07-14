@@ -45,3 +45,20 @@ npm run serve
 
 ## Acceder al front
 http://localhost:8080/
+
+## 📡 Ejemplos de consulta a la API (RESTful)
+
+### Listar todos los usuarios paginados
+```http
+GET http://localhost:8001/api/users?page=1
+```
+
+### Listar todos los usuarios paginados por rol
+```http
+GET http://localhost:8001/api/users/by-role?role=manager
+```
+
+### Listar la cantidad de Usuarios por cada Rol
+```http
+GET http://localhost:8001/api/users/stats
+```
