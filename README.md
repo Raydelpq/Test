@@ -13,8 +13,8 @@ Esta prueba técnica consiste en una aplicación full-stack construida con Larav
 
 ##  Clonar el repositorio
 ```bash
-git clone https://github.com/tu-usuario/nombre-del-repo.git
-cd test
+git clone https://github.com/Raydelpq/Test.git
+cd Test
 ```
 
 ## Instalación del Backend (Laravel)
