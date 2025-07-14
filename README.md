@@ -34,3 +34,6 @@ cd frontend
 npm install
 npm run serve
 ```
+
+## Acceder al front
+http://localhost:8080/
